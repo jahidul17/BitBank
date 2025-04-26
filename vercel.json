@@ -12,7 +12,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "MamerBank/wsgi.py"
+            "dest": "BitBank/wsgi.py"
         }
     ]
 }
