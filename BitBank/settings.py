@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Your secret key
-SECRET_KEY = env("SECRET_KEY")
+SECRET_KEY = 'django-insecure-5v+bnns5hg9l-u7m6va#zxf1(phuh1&0dtzt7jr8n!7--_f@@='
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -122,11 +122,11 @@ WSGI_APPLICATION = 'BitBank.wsgi.app'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env("DB_NAME"),
-        'USER': env("DB_USER"),
-        'PASSWORD': env("DB_PASSWORD"),
-        'HOST': env("DB_HOST"),
-        'PORT': env("DB_PORT"),
+        'NAME': 'postgres',
+        'USER': 'postgres.bzgvluzsjgolegzbvmyy',
+        'PASSWORD': 'nmBXn9vsfgJeapZh',
+        'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',
+        'PORT': '6543'
     }
 }
 
@@ -180,5 +180,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = env("EMAIL")
-EMAIL_HOST_PASSWORD = env("EMAIL_PASSWORD")
+EMAIL_HOST_USER = 'jahidulislam.khan17@gmail.com'
+EMAIL_HOST_PASSWORD = 'dfmp lpep tdrw ilxr'
